@@ -1,0 +1,292 @@
+.bootstrap-isolated {
+  /*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+  /*# sourceMappingURL=bootstrap-reboot.css.map */
+}
+.bootstrap-isolated *,
+.bootstrap-isolated *::before,
+.bootstrap-isolated *::after {
+  box-sizing: border-box;
+}
+.bootstrap-isolated {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bootstrap-isolated article,
+.bootstrap-isolated aside,
+.bootstrap-isolated figcaption,
+.bootstrap-isolated figure,
+.bootstrap-isolated footer,
+.bootstrap-isolated header,
+.bootstrap-isolated hgroup,
+.bootstrap-isolated main,
+.bootstrap-isolated nav,
+.bootstrap-isolated section {
+  display: block;
+}
+.bootstrap-isolated {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.bootstrap-isolated [tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+.bootstrap-isolated hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.bootstrap-isolated h1,
+.bootstrap-isolated h2,
+.bootstrap-isolated h3,
+.bootstrap-isolated h4,
+.bootstrap-isolated h5,
+.bootstrap-isolated h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.bootstrap-isolated p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.bootstrap-isolated abbr[title],
+.bootstrap-isolated abbr[data-original-title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+.bootstrap-isolated address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+.bootstrap-isolated ol,
+.bootstrap-isolated ul,
+.bootstrap-isolated dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.bootstrap-isolated ol ol,
+.bootstrap-isolated ul ul,
+.bootstrap-isolated ol ul,
+.bootstrap-isolated ul ol {
+  margin-bottom: 0;
+}
+.bootstrap-isolated dt {
+  font-weight: 700;
+}
+.bootstrap-isolated dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+.bootstrap-isolated blockquote {
+  margin: 0 0 1rem;
+}
+.bootstrap-isolated b,
+.bootstrap-isolated strong {
+  font-weight: bolder;
+}
+.bootstrap-isolated small {
+  font-size: 80%;
+}
+.bootstrap-isolated sub,
+.bootstrap-isolated sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+.bootstrap-isolated sub {
+  bottom: -0.25em;
+}
+.bootstrap-isolated sup {
+  top: -0.5em;
+}
+.bootstrap-isolated a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.bootstrap-isolated a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.bootstrap-isolated a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+.bootstrap-isolated a:not([href]):not([tabindex]):hover,
+.bootstrap-isolated a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+.bootstrap-isolated a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+.bootstrap-isolated pre,
+.bootstrap-isolated code,
+.bootstrap-isolated kbd,
+.bootstrap-isolated samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+.bootstrap-isolated pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+.bootstrap-isolated figure {
+  margin: 0 0 1rem;
+}
+.bootstrap-isolated img {
+  vertical-align: middle;
+  border-style: none;
+}
+.bootstrap-isolated svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.bootstrap-isolated table {
+  border-collapse: collapse;
+}
+.bootstrap-isolated caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+.bootstrap-isolated th {
+  text-align: inherit;
+}
+.bootstrap-isolated label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.bootstrap-isolated button {
+  border-radius: 0;
+}
+.bootstrap-isolated button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+.bootstrap-isolated input,
+.bootstrap-isolated button,
+.bootstrap-isolated select,
+.bootstrap-isolated optgroup,
+.bootstrap-isolated textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.bootstrap-isolated button,
+.bootstrap-isolated input {
+  overflow: visible;
+}
+.bootstrap-isolated button,
+.bootstrap-isolated select {
+  text-transform: none;
+}
+.bootstrap-isolated select {
+  word-wrap: normal;
+}
+.bootstrap-isolated button,
+.bootstrap-isolated [type="button"],
+.bootstrap-isolated [type="reset"],
+.bootstrap-isolated [type="submit"] {
+  -webkit-appearance: button;
+}
+.bootstrap-isolated button:not(:disabled),
+.bootstrap-isolated [type="button"]:not(:disabled),
+.bootstrap-isolated [type="reset"]:not(:disabled),
+.bootstrap-isolated [type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+.bootstrap-isolated button::-moz-focus-inner,
+.bootstrap-isolated [type="button"]::-moz-focus-inner,
+.bootstrap-isolated [type="reset"]::-moz-focus-inner,
+.bootstrap-isolated [type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+.bootstrap-isolated input[type="radio"],
+.bootstrap-isolated input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.bootstrap-isolated input[type="date"],
+.bootstrap-isolated input[type="time"],
+.bootstrap-isolated input[type="datetime-local"],
+.bootstrap-isolated input[type="month"] {
+  -webkit-appearance: listbox;
+}
+.bootstrap-isolated textarea {
+  overflow: auto;
+  resize: vertical;
+}
+.bootstrap-isolated fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.bootstrap-isolated legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+.bootstrap-isolated progress {
+  vertical-align: baseline;
+}
+.bootstrap-isolated [type="number"]::-webkit-inner-spin-button,
+.bootstrap-isolated [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.bootstrap-isolated [type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+.bootstrap-isolated [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.bootstrap-isolated ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+.bootstrap-isolated output {
+  display: inline-block;
+}
+.bootstrap-isolated summary {
+  display: list-item;
+  cursor: pointer;
+}
+.bootstrap-isolated template {
+  display: none;
+}
+.bootstrap-isolated [hidden] {
+  display: none !important;
+}
