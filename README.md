@@ -9,7 +9,7 @@ Automatic processor to create Isolated Bootstrap CSS, that does not conflict wit
 **New:** bootstrap-isolated.css
 
 ```html
-https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-isolated.min.css
+https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-isolated.css
 ```
 
 ### bootstrap-grid.css
@@ -17,7 +17,7 @@ https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-isolated.min.css
 **New:** bootstrap-grid-isolated.css
 
 ```html
-https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-grid-isolated.min.css
+https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-grid-isolated.css
 ```
 
 ### bootstrap-reboot.css
@@ -25,7 +25,7 @@ https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-grid-isolated.mi
 **New:** bootstrap-reboot-isolated.css
 
 ```html
-https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-reboot-isolated.min.css
+https://scysys.github.io/Bootstrap-Isolated/4.3.1/css/bootstrap-reboot-isolated.css
 ```
 
 ### Use it on your site
